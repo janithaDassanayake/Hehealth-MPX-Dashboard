@@ -17,3 +17,9 @@ if (window.navigator.userAgent.indexOf("Mobile") > -1) {
     // HIDING ELEMENTS
     $(".scroll").hide();
 }    
+
+
+
+setTimeout(function() {
+    $('.section').addClass('remove');
+},10000)

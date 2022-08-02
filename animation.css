@@ -13,11 +13,14 @@ section
     right: 0;
     bottom: 0;
 
-    -webkit-animation: fadein 5s linear 1 normal forwards;
-    display: none;
+    
     
 }
 
+.remove
+{
+  display: none;
+}
 
 
 .animation
@@ -30,6 +33,7 @@ section
   left:0; right: 0;
   overflow: hidden;
  
+  -webkit-animation: fadein 5s linear 1 normal forwards;
   animation-delay: 7s;
 
   align-items: center;
