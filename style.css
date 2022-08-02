@@ -75,6 +75,11 @@
 
 @media only screen and (max-device-width : 800px) {
 
+.App-logo
+{
+  height: 17vmin;
+}
+
 .world-box
 {
   height: 80vw; 
