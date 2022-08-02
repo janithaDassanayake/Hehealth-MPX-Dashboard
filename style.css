@@ -1,0 +1,149 @@
+
+
+
+
+
+.App-logo {
+    height: 13vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    font-size: calc(10px + 2vmin);
+    color: #2C68EF;
+    text-align: center;
+  }
+
+
+  .scroll {
+    position:fixed;
+    right:50px;
+    bottom:40px;
+    cursor:pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color:#2C68EF;
+    /* text-indent:-9999px; */
+    /* display:none; */
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#c23ce7;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+
+.shadow-row
+{
+  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+
+.graph-box
+{
+  height: 45vw; 
+  overflow-y: hidden
+}
+
+.world-box
+{
+  height: 50vw; 
+  overflow-y: hidden
+}
+
+@media only screen and (max-device-width : 800px) {
+
+.world-box
+{
+  height: 80vw; 
+  overflow-y: hidden
+}
+
+
+  .graph-box
+{
+  height: 100vw; 
+  overflow-y: hidden
+}
+
+.scroll
+{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+}
+
+
+/* 
+@media only screen and (min-device-width : 1000px) {
+
+  /* .world-box
+{
+  height: 75vw; 
+  overflow-y: hidden
+} */
+
+  /* .graph-box
+{
+  height: 50vw; 
+  overflow-y: hidden
+} */
+
+
+
+@media only screen and (max-device-width : 1100px) {
+
+  .world-box
+{
+  height: 73vw; 
+  overflow-y: hidden
+}
+
+}
+
+@media only screen and (min-device-width : 1700px) {
+
+
+  .world-box
+  {
+    height: 30vw; 
+    overflow-y: hidden
+  }
+  .graph-box
+{
+  height: 30vw; 
+  overflow-y: hidden
+}
+}
+
+
+/* @media only screen and (min-device-width : 2560px) {
+
+  .graph-box
+{
+  height: 30vw; 
+  overflow-y: hidden
+}
+} */
