@@ -133,6 +133,21 @@
 
   .world-box
   {
+    height: 42vw; 
+    overflow-y: hidden
+  }
+  .graph-box
+{
+  height: 42vw; 
+  overflow-y: hidden
+}
+}
+
+ @media only screen and (min-device-width : 2000px) {
+
+
+  .world-box
+  {
     height: 30vw; 
     overflow-y: hidden
   }
@@ -141,14 +156,4 @@
   height: 30vw; 
   overflow-y: hidden
 }
-}
-
-
-/* @media only screen and (min-device-width : 2560px) {
-
-  .graph-box
-{
-  height: 30vw; 
-  overflow-y: hidden
-}
-} */
+} 
